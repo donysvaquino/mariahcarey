@@ -1,0 +1,67 @@
+.container{
+    width: 400px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px black;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.649);
+    color: white;
+}
+
+h1{
+    width: 5vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.649);
+}
+
+.caixao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+button{
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+p{
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+body{
+    background-image: url(../maria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
